@@ -1,0 +1,6 @@
+sr_no  name      mark
+1      vishal    90
+2      Rohit     85
+3      virat     70
+4      krishn    60
+5      radha     95

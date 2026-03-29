@@ -1,0 +1,9 @@
+c#!/bin/bash
+
+read -p "what is your first name":firstname
+read -p "what is last name:"lastname
+read -p -N 4 "what is your current extension number?(must be four degit";ext
+read -N -s -p "what access code would like to use?(must be four digit):" access
+
+
+echo "$firstname,$lastname,$ext,$access" >> information.csv

@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+# Authoe: Prime vishal
+# Date Created :28 Dec 2025
+# Last modified: 28 Dec 2025
+
+# Description: created a backup in ~/Bash_project of all files of the home directory.
+# Usage: backup_simple 
+
+tar -cvf ~/Desktop/bashscripting_programming_"$(date +%d-%m-%y_%H -%M-%S)".tar ~/* 2> /dev/null
+
+exit 0
